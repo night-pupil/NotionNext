@@ -37,7 +37,7 @@ const Footer = () => {
           {BEI_AN && (
             <>
               <i className='fas fa-shield-alt' />{' '}
-              <a href='https://icp.gov.moe/?keyword=20242025' className='mr-2'>
+              <a href='https://icp.gov.moe/?keyword=20252025' className='mr-2'>
                 {siteConfig('BEI_AN')}
               </a>
             </>
