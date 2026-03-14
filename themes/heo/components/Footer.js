@@ -11,6 +11,10 @@ const Footer = () => {
   const BEI_AN = siteConfig('BEI_AN')
   const BEI_AN_LINK = siteConfig('BEI_AN_LINK')
   const BIO = siteConfig('BIO')
+  // 萌ICP备案信息
+  const MENG_ICP_TEXT = '萌ICP备20252006号'
+  const MENG_ICP_LINK = 'https://icp.gov.moe/?keyword=20252006'
+  
   return (
     <footer className='relative flex-shrink-0 bg-white dark:bg-[#1a191d] justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm'>
       {/* 颜色过度区 */}
@@ -52,6 +56,11 @@ const Footer = () => {
               </a>
             </>
           )}
+          {/* 新增萌ICP备案链接 */}
+          <a href={MENG_ICP_LINK} className='mr-2'>
+            {MENG_ICP_TEXT}
+          </a>
+          
           <BeiAnGongAn />
 
           <span className='hidden busuanzi_container_site_pv'>
